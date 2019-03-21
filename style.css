@@ -1,0 +1,14 @@
+.optionWrap{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.correct, .incorrect{
+    cursor: pointer;
+    user-select: none;
+}
+.correct:active{
+    background-color: #4caf50;
+}
+.incorrect:active{
+    background-color: #f44336;
+}
